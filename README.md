@@ -7,7 +7,13 @@ Webhooks facilitates communication with third-party applications by sending inst
  
 ![alt text](https://raw.githubusercontent.com/agilecrm/agile-crm-json-io-node/master/Screenshots/jsonio_dialog.png "JSONIO node")
 
- - **Method type** - GET or POST.
+ - **List of Fields in Webhook** 
+ 
+|Field Name|Description|Data Type|
+|:-----|:------|:--------------|
+|Notify URL|Specify the REST API URL of the third-party application.|URL|
+|Module|Contact and Deal|Check Box|
+|Trigger Event|Contact Created,Contact Updated, Deal Created, Deal Updated|Json Data|
 
  - **Params**     
 ‘Key-Value’ pairs which are appended as Query Params to URL later. More params can be added using ’Add’ button.    
