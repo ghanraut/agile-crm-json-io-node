@@ -13,7 +13,7 @@ Webhooks facilitates communication with third-party applications by sending inst
 |:-----|:------|:--------------|
 |Notify URL|Specify the REST API URL of the third-party application.|URL|
 |Module|Contact and Deal|Check Box|
-|Trigger Event|Contact Created,Contact Updated, Deal Created, Deal Updated|Json Data|
+|Trigger Event|Contact is Created,Contact is Updated, Opportunity is Created, Opportunity is Updated|Json Data|
 
 
 Configuring your webhook settings:
