@@ -72,8 +72,10 @@ Here is an example of what a JSON-encoded transcript might look like.
 }
 </pre>
 
+- **Step2** -  Enter the address to your webhook endpoint on our admain > webhook page
+
 ![alt text](https://raw.githubusercontent.com/agilecrm/agile-crm-json-io-node/master/Screenshots/jsonio_dialog.png "JSONIO node")
 
+- **Step3** -  Click the "Save" button to ensure your endpoint is configured properly.
 
-
-You can test your mustache template code using this tool - http://trymustache.com/
+- **Step4** -  Your endpoint can then return JSON containing the two field eventName and eventData. 
