@@ -1,16 +1,11 @@
-Campaign Node JSON IO Functionality
+Webhooks integration guide
 ===================================
 
-JSON IO is one of the intelligent nodes of Campaigns. You can integrate Agile with other applications on the fly. GET or POST data with valid REST URL endpoints are currently supported.
+Webhooks facilitates communication with third-party applications by sending instant web notifications every time an event occurs in Agile CRM. By letting you register a URL that we will notify anytime an event happens in your Agile CRM. When the event occurs—for example, when a successful contact is created , Agile CRM creates an Event object. This object contains all the relevant information about what just happened, including the type of event and the data associated with that event. Agile CRM then sends the Event object to any URLs in your account's webhooks settings via an HTTP POST request. 
 
-Adding the JSON IO node
------------------------
-
-  ![alt text](https://raw.githubusercontent.com/agilecrm/agile-crm-json-io-node/master/Screenshots/jsonio_dialog.png "JSONIO node")
-  
- It consists of three input fields, namely:
-
- - **URL** - It should be a valid REST URL from which you can GET or POST data. URL can have query params as part of it. You can send dynamic params (eg: ?email={{email}}) under Params section.
+ - **Agile CRM web hooks is located at** - Admin Settings > Webhooks
+ 
+![alt text](https://raw.githubusercontent.com/agilecrm/agile-crm-json-io-node/master/Screenshots/jsonio_dialog.png "JSONIO node")
 
  - **Method type** - GET or POST.
 
